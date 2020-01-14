@@ -122,13 +122,8 @@
               "devServerTarget": "lpeng-blog:serve:production"
             }
           }
-        },
-        "deploy": {
-          "builder": "angular-cli-ghpages:deploy",
-          "options": {}
         }
       }
-    }
-  },
+    }},
   "defaultProject": "lpeng-blog"
 }
