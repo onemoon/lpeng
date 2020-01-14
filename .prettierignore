@@ -1,0 +1,13 @@
+# Add files here to ignore them from prettier formatting
+
+tmp
+apps/*/build
+node_modules
+/coverage
+*.log
+!*.config.js
+*.d.ts
+**/*.en.md
+
+dist/
+assets/
