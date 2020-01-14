@@ -879,6 +879,31 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
+"@ionic/angular-toolkit@^2.1.2":
+  version "2.1.2"
+  resolved "https://registry.npm.taobao.org/@ionic/angular-toolkit/download/@ionic/angular-toolkit-2.1.2.tgz#4fe540af0d372d7731586ea33b829e85724a8f9b"
+  integrity sha1-T+VArw03LXcxWG6jO4KehXJKj5s=
+  dependencies:
+    "@schematics/angular" "^8.0.0"
+    tslib "^1.9.0"
+    ws "^7.0.1"
+
+"@ionic/angular@^4.11.8":
+  version "4.11.8"
+  resolved "https://registry.npm.taobao.org/@ionic/angular/download/@ionic/angular-4.11.8.tgz#a672b7221c2beeaa9949956dff3e143bf542e79a"
+  integrity sha1-pnK3Ihwr7qqZSZVt/z4UO/VC55o=
+  dependencies:
+    "@ionic/core" "4.11.8"
+    tslib "^1.9.3"
+
+"@ionic/core@4.11.8", "@ionic/core@^4.11.8":
+  version "4.11.8"
+  resolved "https://registry.npm.taobao.org/@ionic/core/download/@ionic/core-4.11.8.tgz#fbc905f6900133b55c3230c0397944ba40c61aeb"
+  integrity sha1-+8kF9pABM7VcMjDAOXlEukDGGus=
+  dependencies:
+    ionicons "^4.6.3"
+    tslib "^1.10.0"
+
 "@ngtools/webpack@8.3.22":
   version "8.3.22"
   resolved "https://registry.npm.taobao.org/@ngtools/webpack/download/@ngtools/webpack-8.3.22.tgz#f6792d66430fb48c890a8145dee5088e3519860b"
@@ -890,7 +915,7 @@
     tree-kill "1.2.1"
     webpack-sources "1.4.3"
 
-"@schematics/angular@8.3.22":
+"@schematics/angular@8.3.22", "@schematics/angular@^8.0.0":
   version "8.3.22"
   resolved "https://registry.npm.taobao.org/@schematics/angular/download/@schematics/angular-8.3.22.tgz#fab009312bd3d50115332f2c41a92e15744ac09f"
   integrity sha1-+rAJMSvT1QEVMy8sQakuFXRKwJ8=
@@ -3963,6 +3988,11 @@ invert-kv@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npm.taobao.org/invert-kv/download/invert-kv-2.0.0.tgz#7393f5afa59ec9ff5f67a27620d11c226e3eec02"
   integrity sha1-c5P1r6Weyf9fZ6J2INEcIm4+7AI=
+
+ionicons@^4.6.3:
+  version "4.6.3"
+  resolved "https://registry.npm.taobao.org/ionicons/download/ionicons-4.6.3.tgz#e4f3a3e9b66761eb8c0db27798cc1a8ce97777d2"
+  integrity sha1-5POj6bZnYeuMDbJ3mMwajOl3d9I=
 
 ip-regex@^2.1.0:
   version "2.1.0"
@@ -7338,7 +7368,7 @@ ts-node@~7.0.0:
     source-map-support "^0.5.6"
     yn "^2.0.0"
 
-tslib@1.10.0, tslib@^1.10.0, tslib@^1.7.1, tslib@^1.8.0, tslib@^1.8.1, tslib@^1.9.0:
+tslib@1.10.0, tslib@^1.10.0, tslib@^1.7.1, tslib@^1.8.0, tslib@^1.8.1, tslib@^1.9.0, tslib@^1.9.3:
   version "1.10.0"
   resolved "https://registry.npm.taobao.org/tslib/download/tslib-1.10.0.tgz#c3c19f95973fb0a62973fb09d90d961ee43e5c8a"
   integrity sha1-w8GflZc/sKYpc/sJ2Q2WHuQ+XIo=
@@ -7836,6 +7866,11 @@ ws@^6.2.1:
   integrity sha1-RC/fCkftZPWbal2P8TD0dI7VJPs=
   dependencies:
     async-limiter "~1.0.0"
+
+ws@^7.0.1:
+  version "7.2.1"
+  resolved "https://registry.npm.taobao.org/ws/download/ws-7.2.1.tgz#03ed52423cd744084b2cf42ed197c8b65a936b8e"
+  integrity sha1-A+1SQjzXRAhLLPQu0ZfItlqTa44=
 
 ws@~3.3.1:
   version "3.3.3"
