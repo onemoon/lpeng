@@ -10,6 +10,8 @@ export class ShopComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    console.log('on init');
+    console.warn('hello');
   }
 
 }
